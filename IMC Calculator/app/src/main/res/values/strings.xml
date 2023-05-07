@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LearnApp</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="weightValue">64</string>
+    <string name="age">Age</string>
+    <string name="calculate">Calculate</string>
+    <string name="re_calculate">Re-calculate</string>
+    <string name="peso_bajo_information">Su peso esta por debajo de lo óptimo para su altura, trate de comer mas :)</string>
+    <string name="peso_normal_information">Su peso esta muy bien para su altura, siga comiendo igual :)</string>
+    <string name="sobre_peso_information">Su peso esta por encima de lo optimo para su altura, trate de bajarle a las hamburguesas :)</string>
+    <string name="obesidad_information">Su peso supera los limites, o se pone a hacer cardio ya mismo o FF a la vida :O</string>
+    <string name="error_information">PENDEJO METE BIEN LOS DATOS</string>
+    <string name="peso_bajo">Peso Bajo</string>
+    <string name="peso_normal">Peso Normal</string>
+    <string name="sobre_peso">Sobre Peso</string>
+    <string name="obesidad">Obesidad</string>
+</resources>
