@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/animeList">
+
+    <fragment
+        android:id="@+id/animeList"
+        android:name="com.andres.practica_parcial.ui.anime.animelist.AnimeListFragment"
+        android:label="fragment_anime_list"
+        tools:layout="@layout/fragment_anime_list" >
+        <action
+            android:id="@+id/action_animeList_to_addNewAnime"
+            app:destination="@id/addNewAnime" />
+        <action
+            android:id="@+id/action_animeList_to_animeInformationFragment"
+            app:destination="@id/animeInformationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewAnime"
+        android:name="com.andres.practica_parcial.ui.anime.newanime.AddNewAnimeFragment"
+        android:label="fragment_add_new_anime"
+        tools:layout="@layout/fragment_add_new_anime" />
+    <fragment
+        android:id="@+id/animeInformationFragment"
+        android:name="com.andres.practica_parcial.ui.anime.AnimeInformationFragment"
+        android:label="fragment_anime_information"
+        tools:layout="@layout/fragment_anime_information" />
+</navigation>
